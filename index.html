@@ -342,13 +342,15 @@
   }
 
   .footer-logo {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(2.3rem, 9.2vw, 4.6rem);
-    font-weight: 900;
-    font-style: italic;
-    color: var(--amber);
-    line-height: 1;
-    margin-bottom: 0.3em;
+    width: clamp(160px, 50vw, 280px);
+    margin: 0 auto 1.2em;
+  }
+
+  .footer-logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: drop-shadow(0 2px 12px rgba(0,0,0,0.3));
   }
 
   .footer-tagline {
@@ -645,7 +647,9 @@
 
 <!-- ═══════════════ FOOTER ═══════════════ -->
 <footer class="footer">
-  <div class="footer-logo">Cota Coelho</div>
+  <div class="footer-logo">
+    <img src="logo2.svg" alt="Cota Coelho">
+  </div>
   <p class="footer-tagline">
     Capitão Leitão · Nr. 73c<br>
     Restaurante de Petiscos Tradicionais · Almada · 2800-136
